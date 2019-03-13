@@ -1,0 +1,51 @@
+import math
+
+
+# solve it 1
+
+# x=4; y=3; z=2;
+
+# w= pow((x+y*z)/(x*y),z);
+# print(w);
+
+# solve it 2
+# angka = input("Silahkan masukan angka berapa pun ! ");
+# angka2 = float(angka);
+# angka2= math.sqrt(angka2);
+# print("Kuadrat dari " + str(angka) + "= " + str(angka2));
+
+# solve it 3
+
+# jh=485;
+# tahun=math.floor(jh/360);
+# bulan = math.floor((jh-tahun*360)/30)
+# minggu = math.floor((jh-tahun*360-bulan*30)/7)
+# hari =jh-tahun*360-bulan*30-minggu*4
+
+# print(str(tahun)+" tahun "   + str(bulan) +" bulan " +  str(minggu) + " minggu " +   str(hari) + " hari " );
+
+
+# #solve it 4
+
+# jU= 49; 
+# rU= 0.4; 
+# #persamaan 1 : Andi+Budi= 49 // persmaan 2 : Andi/Budi=0.4 
+
+# Budi = jU/(1+rU);
+# Andi = jU/(1+1/rU);
+# print("usia Andi 2 tahun lagi : " + str(Andi+2) + " sedangkan Budi : " + str(Budi+2));
+
+# #solve it 5
+# x = input("masukan string : ");
+# z = input("masukan sebuah karakter : ");
+# y = x.split(z);
+# print('"' + x + '"' + " memiliki huruf " + "'" + z + "'" + "sebanyak " + str(len(y)-1) + " buah");
+
+# solve it 6
+# jarak = 120
+# kecA = 60
+# kecB = 40
+# time = jarak/(kecA+kecB);
+# menit = round((time-math.floor(time))*60)
+
+# print ( "jika kedua mobil berangkat pada pukul 9 WIB, maka mereka akan bertemu pada pukul " + str(9+math.floor(time))+ "." + str(menit) + " WIB")
