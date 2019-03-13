@@ -1,0 +1,28 @@
+import math
+# #solve it 1
+
+# angka = input("masukan angka : ");
+# if (int(angka)%2==0) : 
+#     print("angka " + str(angka) + " adalah bilangan genap" );
+# else :
+#     print("angka " + str(angka) + " adalah bilangan ganjil" );
+
+# solve it 2
+
+massa=input(" masukan Massa (Kg)");
+tinggi= input("masukan tinggi (cm) ");
+
+IMT = float(massa)/math.pow(float(tinggi)/100,2);
+
+print ("massa " +massa+ " Kg & tinggi " + str(float(tinggi)/100) +" m\n" + "IMT = " + str(IMT));
+
+if IMT< 18.5: 
+    print(", Berat badan kurang !");
+elif IMT<=24.9 :
+    print(", Berat badan ideal !");
+elif IMT<=29.9 :
+    print(", Berat badan Berlebih !");
+elif IMT<=39.9 :
+    print(", Berat badan Sangat berlebih !");
+else :
+    print(", Berat badan Obesitas !");
