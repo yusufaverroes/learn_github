@@ -49,3 +49,4 @@ import math
 # menit = round((time-math.floor(time))*60)
 
 # print ( "jika kedua mobil berangkat pada pukul 9 WIB, maka mereka akan bertemu pada pukul " + str(9+math.floor(time))+ "." + str(menit) + " WIB")
+//haha
